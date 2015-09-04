@@ -4,6 +4,8 @@
 
 .sp-menu {
 	background: #47a3da;/*blue*/
+	height: 100%;
+	width: 15%;
 	position: fixed;
 }
 
@@ -61,7 +63,9 @@
 }
 
 .spmenu-push-toleft{
-	left:-240px;
+	overflow-x:hidden;
+	position: relative;
+	left:240px;
 }
 
 .menuOpen{
@@ -69,6 +73,6 @@
 }
 /*transitions*/
 .sp-menu,
-.spmenu-push {
+.spmenu-push-toleft {
 	transition: all 0.3s ease;
 }
