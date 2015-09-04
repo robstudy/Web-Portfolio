@@ -4,10 +4,22 @@
 	<title>Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/custom.css">
+
 	<link rel="stylesheet" href="css/bootstrap.min.css"><!--BootStrap CSS from http://getbootstrap.com/-->
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/classie.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
+	<!--tutorial found at http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/-->
+	<nav class="sp-menu" id="menu-bar">
+		<h3>Menu</h3>
+		<a href="#">Home</a>
+		<a href="#">Resume</a>
+		<a href="#">Games</a>
+		<a href="#">Other Projects</a>
+		<a href="#">About</a>
+	</nav>
 <!--TODO: add more personalized images once other projects are completed-->
 <div class="container">
 	<header>
@@ -17,17 +29,18 @@
 			<h3 class="text-right"><small>Front End Ninja (in training)</small></h3>
 		</div>
 	</header>
-	<nav>
+	<!--tutorial found at http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/-->
+
 	<!--TODO: Add navigation links to jumbotron(ex: other works not featured, separate pages not related to web development, etc) -->
 		<div class="jumbotron">
 			<h2 class="text-center">A Portfolio at the Edge of the Web</h2>
 			<p class="text-center">
-				<a class="btn btn-primary btn-md" href="#" role="button">Other Projects</a>
+				<a class="btn btn-primary btn-md" id="showLeft" href="#" role="button">Show Menu</a>
 				<a class="btn btn-default btn-md" href="#" role="button">Resources</a>
 				<a class="btn btn-default btn-md" href="#" role="button">Blog</a>
 			</p>
 		</div><!--/jumbotron-->
-	</nav>
+
 	<!--TODO: Add future projects to Featured Work-->
 	<!--Images generated from http://www.placeimg.com/-->
 	<section>
