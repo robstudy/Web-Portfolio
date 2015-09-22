@@ -1,78 +1,11 @@
-.icon-size{
-	font-size: 30px;
+/*project-box*/
+.project-box{
+	border: 1px solid black;
+	background-color: #e6e8ea; /*transparent grey*/
+	padding: 1em;
 }
 
-.sp-menu {
-	background: #47a3da;/*blue*/
-	height: 100%;
-	width: 15%;
-	position: fixed;
-}
-
-.sp-menu h3 {
-	color: #afdefa;
-	font-size: 1.9em;
-	padding: 20px;
-	margin: 0;
-	font-weight: 300;
-	background: #0d77b6;
-}
-
-.sp-menu a {
-	display: block;
-	color: #fff;
-	font-size: 1.1em;
-	font-weight: 300;
-}
-
-.sp-menu a:hover {
-	background: #258ecd;
-}
-
-.sp-menu a:active {
-	background: #afdefa;
-	color: #47a3da;
-}
-
-/*Hide menu */
-.sp-menu {
-	left: -240px;
-}
-
-
-/*media screens*/
-@media screen and (max-height: 26.375em){
-	.sp-menu {
-		left: -190px;
-	}
-
-	.spmenu-push-toright{
-		left:190px;
-	}
-}
-
-/*push classes applied to the body */
-.spmenu-push {
-	overflow-x: hidden;
-	position: relative;
-	left:0;
-}
-
-.spmenu-push-toright{
-	left:240px;
-}
-
-.spmenu-push-toleft{
-	overflow-x:hidden;
-	position: relative;
-	left:240px;
-}
-
-.menuOpen{
-	left: 0px;
-}
-/*transitions*/
-.sp-menu,
-.spmenu-push-toleft {
-	transition: all 0.3s ease;
+.img-responsive {
+	border:1px solid #021a40;
+	margin: 0 auto;
 }
