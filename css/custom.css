@@ -8,23 +8,29 @@
 	min-height: 400px;
 	height: 100%;
 	margin: 0 auto;
-	position:relative
+	position:relative;
 }
 
 .jumbotron h1 {
 	margin-top: -5%;
 }
 
-.jumbotron p {
-	font-size: 1.8em;
-}
-
 .jumbotron h6 {
 	position:absolute;
 	bottom: 0;
+	right:0;
+}
+
+.jumbotron p {
+	font-size: 1.8em;
 }
 
 .img-responsive {
 	border:1px solid #021a40;
 	margin: 0 auto;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
 }
