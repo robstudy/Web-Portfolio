@@ -24,16 +24,6 @@
 	bottom: 0;
 }
 
-.about-content{
-	font-size: 30px;
-}
-
-.project-box{
-	border: 1px solid black;
-	background-color: #e6e8ea; /*transparent grey*/
-	padding: 1em;
-}
-
 .img-responsive {
 	border:1px solid #021a40;
 	margin: 0 auto;
